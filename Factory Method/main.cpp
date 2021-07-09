@@ -8,9 +8,9 @@
 #include <thread>
 #include <chrono>
 
-#include "Plane.h"
-#include "Boat.h"
-#include "Car.h"
+#include "lib/Plane.h"
+#include "lib/Boat.h"
+#include "lib/Car.h"
 
 
 #define CARMAXSPEED 150

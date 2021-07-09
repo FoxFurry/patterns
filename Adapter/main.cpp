@@ -4,8 +4,8 @@
 
 #include <iostream>
 
-#include "JPEGTransformator.h"
-#include "GIFAdapter.h"
+#include "lib/JPEGTransformator.h"
+#include "lib/GIFAdapter.h"
 
 #define NUMofFRAMES 10
 

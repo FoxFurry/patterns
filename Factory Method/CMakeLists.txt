@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(Factory_Method transport.hpp main.cpp Car.cpp Car.h Plane.cpp Plane.h Boat.cpp Boat.h)
+add_executable(Factory_Method lib/Transport.h main.cpp lib/Car.cpp lib/Car.h lib/Plane.cpp lib/Plane.h lib/Boat.cpp lib/Boat.h)

@@ -3,4 +3,4 @@ project(Adapter)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Adapter main.cpp JPEGTransformator.h JPEG.h GIF.h GIFAdapter.h)
+add_executable(Adapter main.cpp lib/JPEGTransformator.h lib/JPEG.h lib/GIF.h lib/GIFAdapter.h)
