@@ -26,4 +26,6 @@ int main() {
         imageEnhancer.setTarget(dogeAdapter);
         imageEnhancer.transform();
     } while (dogeAdapter.nextFrame());
+
+    return 0;
 }

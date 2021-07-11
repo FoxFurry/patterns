@@ -22,7 +22,8 @@ private:
 public:
     GIFAdapter(GIF _gif): targetGIF(_gif) { updateName(); }
 
-    void resetFrame() { currentFrame = STARTFRAME;}
+    void resetFrame() { currentFrame = STARTFRAME; }
+
     bool nextFrame() {
         if(currentFrame < targetGIF.getNumOfFrames()){
             currentFrame++;
